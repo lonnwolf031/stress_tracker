@@ -1,5 +1,5 @@
 
-
+/*
 FlutterBlue flutterBlue = FlutterBlue.instance;
 
 // Start scanning
@@ -55,3 +55,6 @@ characteristic.value.listen((value) {
 
 final mtu = await device.mtu.first;
 await device.requestMtu(512);
+
+
+ */
