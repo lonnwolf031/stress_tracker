@@ -1,6 +1,17 @@
+import 'dart:async';
+import 'dart:math';
 
-/*
-FlutterBlue flutterBlue = FlutterBlue.instance;
+import 'package:flutter/material.dart';
+import 'package:flutter_blue/flutter_blue.dart';
+
+class readBluetooth {
+
+  readBluetooth() {
+    FlutterBlue flutterBlue = FlutterBlue.instance;
+  }
+
+
+  /*
 
 // Start scanning
 flutterBlue.startScan(timeout: Duration(seconds: 4));
@@ -56,5 +67,8 @@ characteristic.value.listen((value) {
 final mtu = await device.mtu.first;
 await device.requestMtu(512);
 
+*/
+   */
+}
 
- */
+
